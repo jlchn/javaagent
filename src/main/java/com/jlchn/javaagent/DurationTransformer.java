@@ -21,7 +21,7 @@ public class DurationTransformer implements ClassFileTransformer {
 
         byte[] byteCodes = classfileBuffer;
 
-        if (className.equals("com/worksap/morphling/AgentTest")){
+        if (className.equals("com/jlchn/javaagent/AgentTest")){
             System.out.println("Instrumenting...");
 
             try {
